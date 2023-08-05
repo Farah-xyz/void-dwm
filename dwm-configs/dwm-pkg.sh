@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-xbps-install -S xorg-minimal xrandr xprop xbacklight xclip xwallpaper \
+#!/bin/sh
+xbps-install -S xorg-minimal xrandr xprop xset xclip xsetroot xbacklight xwallpaper \
     base-devel libX11-devel libXft-devel libXinerama-devel \
     font-awesome font-firacode \
     arc-theme arc-icon-theme \
